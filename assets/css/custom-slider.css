@@ -330,9 +330,6 @@
 }
 
 @media (max-width: 768px) {
-  body {
-    padding: 60px 20px;
-  }
 
   .about-title {
     font-size: 3rem;

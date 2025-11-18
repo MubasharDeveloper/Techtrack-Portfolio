@@ -63,6 +63,10 @@ rightArrow.addEventListener("click", () => {
   updateCarousel(currentIndex + 1);
 });
 
+setInterval(() => {
+  updateCarousel(currentIndex + 1);
+}, 3000);
+
 
 cards.forEach((card, i) => {
   card.addEventListener("click", () => {

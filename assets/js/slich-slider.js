@@ -34,3 +34,9 @@ faqItems.forEach(item => {
     item.classList.toggle("active");
   });
 });
+
+
+
+$('.custom-navbar-toggle-btn').on('click', ()=>{
+  $('.toggle-sidebar').toggleClass('active')
+})

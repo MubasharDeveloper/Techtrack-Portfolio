@@ -415,7 +415,17 @@
   }
 
   .service {
-    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .arrow-div{
+    padding: 48px;
+  }
+
+  .Content-section .title-content{
+    font-size: 30px;
   }
 
   .service-title {
@@ -614,6 +624,7 @@
   height: 45px;
   border-radius: 8px;
   border: 2px solid var(--primary-purple);
+  display: flex;
 }
 
 .swiper-button-next:hover,
