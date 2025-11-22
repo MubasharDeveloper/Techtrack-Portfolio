@@ -24,6 +24,10 @@
   box-sizing: border-box;
 }
 
+html{
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   color: var(--text-dark);
@@ -81,7 +85,8 @@ body {
   right: 0;
   max-width: 300px;
   width: 100%;
-  height: 400px;
+  max-height: 400px;
+  height: 100%;
   background: transparent;
 }
 
@@ -427,7 +432,7 @@ body {
   background: var(--white);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   transition: all 0.3s;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 }
 
 .project-image {
@@ -981,6 +986,10 @@ body {
   border-right: 1px solid #b7b7b7;
 }
 
+.tech-slider-section {
+  padding: 6rem 0 5rem;
+}
+
 
 @media(max-width: 1399px) {
   .features-section {
@@ -1043,16 +1052,36 @@ body {
     padding: 36px 18px 18px;
   }
 
-  .custom-slider-section{
+  .custom-slider-section {
     flex-direction: column !important;
   }
-  .location-content{
+
+  .location-content {
     padding: 0 6px;
   }
-  .cta-inner-section{
+
+  .cta-inner-section {
     padding: 18px;
   }
-  .custom-inner-container{
+
+  .custom-inner-container {
     gap: 6px;
+  }
+
+  .vecter-lines {
+    max-width: 230px;
+    max-height: 280px;
+  }
+
+  .vecter-lines::before {
+    width: 400px;
+    height: 400px;
+  }
+
+  .vecter-lines::after {
+    width: 400px;
+    height: 400px;
+    bottom: 24px;
+    left: 32px;
   }
 }
