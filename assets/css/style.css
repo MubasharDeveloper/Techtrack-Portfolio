@@ -1345,5 +1345,55 @@ body {
       right: -1%;
     }
   }
+}
 
+
+.hero-content-section-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-direction: row;
+  padding: 120px 60px 60px;
+
+  & .hero-2-inner-content {
+    width: 50%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  & .hero-2-image-section {
+    width: 50%;
+    flex-flow: 1;
+
+    & .inner-section {
+      max-width: 520px;
+      width: 100%;
+      margin-left: auto;
+      position: relative;
+
+
+      & .hero-image-2 {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.team-section {
+  padding: 7rem 60px 0;
+}
+
+.swiper-wrapper .team-member-card .project-content {
+  position: unset;
+}
+
+.team-member-card .project-title {
+  margin: 0;
+}
+
+.team-member-card .content-discription {
+  font-size: 14px;
+  color: var(--text-gray);
 }
