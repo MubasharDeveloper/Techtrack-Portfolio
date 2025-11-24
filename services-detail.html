@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechTrack - Digital Product Agency</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="./assets/css/custom-slider.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/Techtrack.png" alt>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="career.html">Career</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="btn btn-dark-custom navbar-btn">Let's Talk</button>
+            <button class="btn btn-dark-custom custom-navbar-toggle-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 6l16 0" />
+                    <path d="M4 12l16 0" />
+                    <path d="M4 18l16 0" />
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <div class="toggle-sidebar">
+        <span class="navbar-brand">
+            <img src="./assets/images/Techtrack.png" alt>
+            <span class="custom-navbar-toggle-btn close-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M18 6l-12 12" />
+                    <path d="M6 6l12 12" />
+                </svg>
+            </span>
+        </span>
+        <ul class="side-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="team.html">Team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="career.html">Career</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <section class="service-details-section">
+        <img src="./assets/images/Service-detail.jpg" class="service-detail-bg-image" alt="">
+        <div class="service-detail-inner-section">
+            <div class="service-detail-hero">
+                <h1 class="title">
+                    We deliver smart and scalable solutions that help your business move forward
+                </h1>
+                <p class="hero-paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                </p>
+                <div class="d-flex gap-3 justify-content-center">
+                    <button class="btn btn-primary-custom">
+                        Start Your Project
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-up-right">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M17 7l-10 10" />
+                            <path d="M8 7l9 0l0 9" />
+                        </svg>
+                    </button>
+                    <button class="btn btn-dark-custom">
+                        Get a Free Quote
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-up-right">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M17 7l-10 10" />
+                            <path d="M8 7l9 0l0 9" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="service-detail-content">
+                <h2 class="detail-heading">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                </h2>
+                <p class="detail-paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p class="detail-paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+
+        <div class="sevice-cards">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card-images">
+                        <img src="./assets/images/service-card-1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card-images">
+                        <img src="./assets/images/service-card-2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Working Process -->
+    <section class="working-process">
+        <h2 class="section-title">Our Working Process</h2>
+        <p class="section-subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div class="row g-3 mt-3">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="feature-card feature-card-reverse text-center">
+                    <div class="feature-icon mx-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M21.25 18.4701L19.6 18.8601C19.23 18.9501 18.94 19.2301 18.86 19.6001L18.51 21.0701C18.32 21.8701 17.3 22.1201 16.77 21.4901L13.78 18.0501C13.54 17.7701 13.67 17.3301 14.03 17.2401C15.8 16.8101 17.39 15.8201 18.56 14.4101C18.75 14.1801 19.09 14.1501 19.3 14.3601L21.52 16.5801C22.28 17.3401 22.01 18.2901 21.25 18.4701Z"
+                                fill="white"></path>
+                            <path
+                                d="M2.69998 18.4701L4.34998 18.8601C4.71998 18.9501 5.00998 19.2301 5.08998 19.6001L5.43998 21.0701C5.62998 21.8701 6.64998 22.1201 7.17998 21.4901L10.17 18.0501C10.41 17.7701 10.28 17.3301 9.91998 17.2401C8.14998 16.8101 6.55998 15.8201 5.38998 14.4101C5.19998 14.1801 4.85998 14.1501 4.64998 14.3601L2.42998 16.5801C1.66998 17.3401 1.93998 18.2901 2.69998 18.4701Z"
+                                fill="white"></path>
+                            <path
+                                d="M12 2C8.13 2 5 5.13 5 9C5 10.45 5.43 11.78 6.17 12.89C7.25 14.49 8.96 15.62 10.95 15.91C11.29 15.97 11.64 16 12 16C12.36 16 12.71 15.97 13.05 15.91C15.04 15.62 16.75 14.49 17.83 12.89C18.57 11.78 19 10.45 19 9C19 5.13 15.87 2 12 2ZM15.06 8.78L14.23 9.61C14.09 9.75 14.01 10.02 14.06 10.22L14.3 11.25C14.49 12.06 14.06 12.38 13.34 11.95L12.34 11.36C12.16 11.25 11.86 11.25 11.68 11.36L10.68 11.95C9.96 12.37 9.53 12.06 9.72 11.25L9.96 10.22C10 10.03 9.93 9.75 9.79 9.61L8.94 8.78C8.45 8.29 8.61 7.8 9.29 7.69L10.36 7.51C10.54 7.48 10.75 7.32 10.83 7.16L11.42 5.98C11.74 5.34 12.26 5.34 12.58 5.98L13.17 7.16C13.25 7.32 13.46 7.48 13.65 7.51L14.72 7.69C15.39 7.8 15.55 8.29 15.06 8.78Z"
+                                fill="white"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Choose a Service</h3>
+                    <p class="feature-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="feature-card feature-card-reverse text-center">
+                    <div class="feature-icon mx-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M11.25 18.25H9C7.9 18.25 7 19.15 7 20.25V20.5H6C5.59 20.5 5.25 20.84 5.25 21.25C5.25 21.66 5.59 22 6 22H18C18.41 22 18.75 21.66 18.75 21.25C18.75 20.84 18.41 20.5 18 20.5H17V20.25C17 19.15 16.1 18.25 15 18.25H12.75V15.96C12.5 15.99 12.25 16 12 16C11.75 16 11.5 15.99 11.25 15.96V18.25Z"
+                                fill="#fff"></path>
+                            <path
+                                d="M18.48 11.64C19.14 11.39 19.72 10.98 20.18 10.52C21.11 9.49 21.72 8.26 21.72 6.82C21.72 5.38 20.59 4.25 19.15 4.25H18.59C17.94 2.92 16.58 2 15 2H9C7.42 2 6.06 2.92 5.41 4.25H4.85C3.41 4.25 2.28 5.38 2.28 6.82C2.28 8.26 2.89 9.49 3.82 10.52C4.28 10.98 4.86 11.39 5.52 11.64C6.56 14.2 9.06 16 12 16C14.94 16 17.44 14.2 18.48 11.64ZM14.84 8.45L14.22 9.21C14.12 9.32 14.05 9.54 14.06 9.69L14.12 10.67C14.16 11.27 13.73 11.58 13.17 11.36L12.26 11C12.12 10.95 11.88 10.95 11.74 11L10.83 11.36C10.27 11.58 9.84 11.27 9.88 10.67L9.94 9.69C9.95 9.54 9.88 9.32 9.78 9.21L9.16 8.45C8.77 7.99 8.94 7.48 9.52 7.33L10.47 7.09C10.62 7.05 10.8 6.91 10.88 6.78L11.41 5.96C11.74 5.45 12.26 5.45 12.59 5.96L13.12 6.78C13.2 6.91 13.38 7.05 13.53 7.09L14.48 7.33C15.06 7.48 15.23 7.99 14.84 8.45Z"
+                                fill="#fff"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Request a Meeting</h3>
+                    <p class="feature-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="feature-card feature-card-reverse text-center">
+                    <div class="feature-icon mx-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M11.97 2C6.45 2 1.97 6.48 1.97 12C1.97 17.52 6.45 22 11.97 22C17.49 22 21.97 17.52 21.97 12C21.97 6.48 17.5 2 11.97 2ZM17.4 16.43C16.17 18.2 14.15 19.25 12 19.25C9.85 19.25 7.83 18.2 6.6 16.43C6.36 16.09 6.45 15.62 6.79 15.39C7.13 15.15 7.6 15.24 7.83 15.58C8.78 16.94 10.34 17.76 12 17.76C13.66 17.76 15.22 16.95 16.17 15.58C16.41 15.24 16.87 15.16 17.21 15.39C17.56 15.62 17.64 16.09 17.4 16.43Z"
+                                fill="white"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Receive Custom Plan</h3>
+                    <p class="feature-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="feature-card feature-card-reverse text-center">
+                    <div class="feature-icon mx-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M12 2C6.49 2 2 6.49 2 12C2 17.51 6.49 22 12 22C17.51 22 22 17.51 22 12C22 6.49 17.51 2 12 2ZM16.78 9.7L11.11 15.37C10.97 15.51 10.78 15.59 10.58 15.59C10.38 15.59 10.19 15.51 10.05 15.37L7.22 12.54C6.93 12.25 6.93 11.77 7.22 11.48C7.51 11.19 7.99 11.19 8.28 11.48L10.58 13.78L15.72 8.64C16.01 8.35 16.49 8.35 16.78 8.64C17.07 8.93 17.07 9.4 16.78 9.7Z"
+                                fill="white"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Let’s Make it Happen</h3>
+                    <p class="feature-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- tech-slider-section -->
+    <section class="tech-slider-section tech-slider-section-2">
+        <div class="slider-section">
+            <div class="logo-slider-container">
+                <div class="logo-slide-track">
+                    <!-- First set of logos -->
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Adobe XD</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">React Native</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Flutter</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Swift UI (IOS)</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Kotlin (Android)</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Node JS</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">React JS</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Express JS</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Laravel</div>
+                        </div>
+                    </div>
+
+                    <!-- Duplicate set for seamless looping -->
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Adobe XD</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">React Native</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Flutter</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Swift UI (IOS)</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Kotlin (Android)</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Node JS</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">React JS</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Express JS</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Laravel</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-section">
+            <div class="logo-slider-container">
+                <div class="logo-slide-track">
+                    <!-- First set of logos -->
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Adobe XD</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">React Native</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Flutter</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Swift UI (IOS)</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Kotlin (Android)</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Node JS</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">React JS</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Express JS</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Laravel</div>
+                        </div>
+                    </div>
+
+                    <!-- Duplicate set for seamless looping -->
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Adobe XD</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">React Native</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Flutter</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Swift UI (IOS)</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Kotlin (Android)</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Node JS</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">React JS</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Express JS</div>
+                        </div>
+                    </div>
+                    <div class="logo-slide">
+                        <div class="logo-container">
+                            <div class="logo-text">Laravel</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marketing Section -->
+    <section class="marketing-section">
+        <!-- Header -->
+        <div class="header">
+            <h2>From custom software to digital marketing, we’ve got
+                you covered</h2>
+            <button class="btn btn-primary-custom">
+                View All
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-up-right">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M17 7l-10 10" />
+                    <path d="M8 7l9 0l0 9" />
+                </svg>
+            </button>
+        </div>
+
+        <!-- Services Grid -->
+        <div class="services">
+
+            <!-- Laravel Development -->
+            <div class="service">
+                <h3 class="service-title">
+                    <span class="service-number">01</span>
+                    Laravel Development
+                </h3>
+                <div class="tags">
+                    <span class="tag">Lorem ipsum</span>
+                    <span class="tag">Lorem ipsum</span>
+                    <span class="tag">Lorem ipsum</span>
+                    <span class="tag">Lorem ipsum</span>
+                    <span class="tag">Lorem ipsum</span>
+                </div>
+                <div class="arrow-div">
+                    <div class="arrow-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-up-right">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M17 7l-10 10" />
+                            <path d="M8 7l9 0l0 9" />
+                        </svg>
+                    </div>
+                    <div class="arrow-bg-image">
+                        <img src="./assets/images/app.jpg" alt>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mern Stack -->
+            <div class="service">
+                <h3 class="service-title">
+                    <span class="service-number">02</span>
+                    Mern Stack
+                </h3>
+                <div class="tags">
+                    <span class="tag">Lorem ipsum</span>
+                    <span class="tag">Lorem ipsum</span>
+                    <span class="tag">Lorem ipsum</span>
+                    <span class="tag">Lorem ipsum</span>
+                    <span class="tag">Lorem ipsum</span>
+                </div>
+                <div class="arrow-div">
+                    <div class="arrow-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-up-right">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M17 7l-10 10" />
+                            <path d="M8 7l9 0l0 9" />
+                        </svg>
+                    </div>
+                    <div class="arrow-bg-image">
+                        <img src="./assets/images/app.jpg" alt>
+                    </div>
+                </div>
+            </div>
+
+            <!-- App Development -->
+            <div class="service">
+                <h3 class="service-title">
+                    <span class="service-number">03</span>
+                    App Development
+                </h3>
+                <div class="tags">
+                    <span class="tag">Lorem ipsum</span>
+                    <span class="tag">Lorem ipsum</span>
+                    <span class="tag">Lorem ipsum</span>
+                    <span class="tag">Lorem ipsum</span>
+                    <span class="tag">Lorem ipsum</span>
+                </div>
+                <div class="arrow-div">
+                    <div class="arrow-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-up-right">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M17 7l-10 10" />
+                            <path d="M8 7l9 0l0 9" />
+                        </svg>
+                    </div>
+                    <div class="arrow-bg-image">
+                        <img src="./assets/images/app.jpg" alt>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Marketing -->
+            <div class="service">
+                <h3 class="service-title">
+                    <span class="service-number">04</span>
+                    Marketing
+                </h3>
+                <div class="tags">
+                    <span class="tag">Lorem ipsum</span>
+                    <span class="tag">Lorem ipsum</span>
+                    <span class="tag">Lorem ipsum</span>
+                    <span class="tag">Lorem ipsum</span>
+                    <span class="tag">Lorem ipsum</span>
+                </div>
+                <div class="arrow-div">
+                    <div class="arrow-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-up-right">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M17 7l-10 10" />
+                            <path d="M8 7l9 0l0 9" />
+                        </svg>
+                    </div>
+                    <div class="arrow-bg-image">
+                        <img src="./assets/images/app.jpg" alt>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-inner-section">
+            <img src="./assets/images/Shape.png" alt class="cta-right-image">
+            <img src="./assets/images/Ellipse.png" alt class="cta-left-image">
+            <div class="custom-inner-container">
+                <h2 class="cta-title">Get in touch today to discuss your
+                    project with our team.</h2>
+                <p class="cta-subtitle">Let's transform your ideas into
+                    reality.
+                    Schedule a free consultation with our experts.</p>
+                <button class="btn btn-dark-custom mx-auto">
+                    Get Start Your Project
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-up-right">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M17 7l-10 10"></path>
+                        <path d="M8 7l9 0l0 9"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="services-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="section-subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </div>
+
+        <div class="container py-5">
+            <div class="faq-filter text-center mb-4">
+                <button class="active">All</button>
+                <button>General</button>
+                <button>Services</button>
+                <button>Pricing</button>
+                <button>Career</button>
+            </div>
+
+            <div class="faq-list">
+
+                <!-- FAQ 1 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor?
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor
+                        incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation.
+                    </div>
+                </div>
+
+                <!-- FAQ 2 (open by default like image) -->
+                <div class="faq-item active">
+                    <div class="faq-question">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor?
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor
+                        incididunt
+                        ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation
+                        ullamco
+                        laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in
+                        reprehenderit.
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor?
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Bootstrap + JS -->
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+
+        <div class="row">
+
+            <!-- Left Info -->
+            <div class="col-lg-4 mb-4">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris.
+                </p>
+
+                <div class="d-flex mt-4 footer-social">
+                    <i class="fab fa-whatsapp"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+            </div>
+
+            <!-- Pages -->
+            <div class="col-lg-2 col-md-5 mb-4">
+                <div class="footer-title">Pages</div>
+                <div class="footer-links">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Portfolio</a>
+                    <a href="#">Team</a>
+                    <a href="#">Career</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+
+            <!-- Services -->
+            <div class="col-lg-3 col-md-7 mb-4">
+                <div class="footer-title">Services</div>
+                <div class="footer-links">
+                    <a href="#">Laravel Development</a>
+                    <a href="#">Mern Stack</a>
+                    <a href="#">App Development</a>
+                    <a href="#">Marketing</a>
+                    <a href="#">UI/UX Design</a>
+                    <a href="#">Software Development</a>
+                </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-lg-3 mb-4">
+                <div class="footer-title">Contact</div>
+
+                <p class="footer-contact d-flex">
+                    <i class="fas fa-phone"></i> +92 301 2345678
+                </p>
+                <p class="footer-contact d-flex">
+                    <i class="fas fa-envelope"></i>
+                    info@techtrack.online
+                </p>
+                <p class="footer-contact d-flex">
+                    <i class="fas fa-map-marker-alt"></i> Edden Valley
+                    FSD, PK
+                </p>
+                <p class="footer-contact d-flex">
+                    <i class="fas fa-clock"></i> 10:00 am - 07:00 pm
+                    (Mon-Sat)
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Background Large Logo -->
+        <div class="footer-logo-large">
+            <img src="./assets/images/Techtrack-footer-logo.png" alt="Techtrack">
+        </div>
+
+    </footer>
+    <div class="footer-bottom text-center">
+        <div class="container d-flex justify-content-between">
+            <div>Copyright © 2025, All right reversed</div>
+            <div>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms &amp; Conditions</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/slich-slider.js"></script>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
