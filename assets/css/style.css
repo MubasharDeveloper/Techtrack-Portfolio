@@ -1397,3 +1397,69 @@ body {
   font-size: 14px;
   color: var(--text-gray);
 }
+
+.hero-content-section-team {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  flex-direction: row;
+  padding: 120px 60px 60px;
+
+  & .hero-2-inner-content {
+    width: 60%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    & .title {
+      margin: 0;
+    }
+
+    & .sub-title {
+      font-size: 24px;
+      font-weight: 500;
+      color: var(--text-gray);
+    }
+
+    & .skills-badge-wrapper{
+      display: flex;
+      justify-content: flex-start;
+      gap: 12px;
+      flex-wrap: wrap;
+
+      & .skill-badge{
+        display: flex;
+        padding: 8px 12px;
+        border: 1px solid var(--text-gray);
+        border-radius: 24px;
+        color: var(--text-gray);
+      }
+    }
+  }
+
+  & .hero-2-image-section {
+    width: 40%;
+    flex-flow: 1;
+
+    & .inner-section {
+      max-width: 580px;
+      width: 100%;
+      position: relative;
+      border-radius: 20px;
+      overflow: hidden;
+      margin: auto;
+
+      & .hero-image-2 {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media(max-width: 1150px){
+  .hero-content-section-team{
+    flex-direction: column;
+    align-items: center;
+  }
+}
