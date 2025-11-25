@@ -14,7 +14,7 @@ var swiper = new Swiper(".projectSwiper", {
     },
     // When window width is >= 768px (medium)
     768: {
-      slidesPerView: 3,
+      slidesPerView: 2,
     },
     // When window width is >= 1200px (large)
     1200: {
