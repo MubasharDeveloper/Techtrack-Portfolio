@@ -1070,7 +1070,7 @@ body {
 .service-detail-bg-image {
   width: 100%;
   object-fit: cover;
-  aspect-ratio: 16 / 6;
+  aspect-ratio: 16 / 5;
   position: absolute;
   top: 0;
   left: 0;
@@ -1245,20 +1245,6 @@ body {
       color: var(--text-gray);
     }
 
-    & .skills-badge-wrapper {
-      display: flex;
-      justify-content: flex-start;
-      gap: 12px;
-      flex-wrap: wrap;
-
-      & .skill-badge {
-        display: flex;
-        padding: 8px 12px;
-        border: 1px solid var(--text-gray);
-        border-radius: 24px;
-        color: var(--text-gray);
-      }
-    }
   }
 
   & .hero-2-image-section {
@@ -1277,6 +1263,21 @@ body {
         width: 100%;
       }
     }
+  }
+}
+
+.skills-badge-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  flex-wrap: wrap;
+
+  & .skill-badge {
+    display: flex;
+    padding: 8px 12px;
+    border: 1px solid var(--text-gray);
+    border-radius: 24px;
+    color: var(--text-gray);
   }
 }
 
@@ -2180,6 +2181,42 @@ body {
   align-items: center;
 }
 
+.portfolio-detail-section {
+  padding: 60px 24px 36px;
+  display: block;
+  max-width: 1320px;
+  margin: 0 auto;
+
+  & .portfolio-detail-inner-section {
+    & .header-image img {
+      width: 100%;
+      aspect-ratio: 10 / 6;
+      border-radius: 24px;
+      box-shadow: 0 0 14px 2px #ccc;
+      object-fit: fill;
+    }
+
+    & .portfolio-detail-inner-content {
+      padding: 60px 24px 0;
+    }
+  }
+}
+
+.portfolio-images {
+  padding: 0 60px 60px;
+}
+
+.contact-us {
+  padding: 5rem 18px 0;
+
+  & .contact-us-form {
+    max-width: 720px;
+    width: 100%;
+    padding: 24px 0 0;
+    margin: auto;
+  }
+}
+
 @media(max-width: 1399px) {
   .features-section {
     padding: 5rem 32px 0;
@@ -2232,16 +2269,6 @@ body {
 
     & .hero-2-inner-content {
       width: 100%;
-
-      & .skills-badge-wrapper {
-        gap: 8px;
-
-        & .skill-badge {
-          padding: 5px 12px;
-          color: var(--text-gray);
-          font-size: 14px;
-        }
-      }
     }
 
     & .hero-2-image-section {
@@ -2256,6 +2283,16 @@ body {
           width: 100%;
         }
       }
+    }
+  }
+
+  .skills-badge-wrapper {
+    gap: 8px;
+
+    & .skill-badge {
+      padding: 5px 12px;
+      color: var(--text-gray);
+      font-size: 14px;
     }
   }
 
@@ -2844,7 +2881,7 @@ body {
 @media (max-width: 576px) {
 
   .service-detail-bg-image {
-    aspect-ratio: 16/10;
+    aspect-ratio: 16/9;
   }
 
   .sevice-cards {
