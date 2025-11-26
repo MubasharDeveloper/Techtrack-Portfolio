@@ -11,6 +11,8 @@
   --text-gray: #6C6C6C;
   --gradient-start: #A315FF;
   --gradient-end: #781BFF;
+
+  --price-badge: #cfbaff;
   --btn-dark: #000;
   --before-after: #d6d6d6;
   --border-color: #d6d6d6;
@@ -1059,7 +1061,215 @@ body {
   }
 }
 
+.opening-card {
+  border-radius: 24px;
+  border: 1px solid var(--text-gray);
+  padding: 24px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 36px;
 
+  & .opening-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    & .title {
+      color: var(--primary-purple);
+      font-size: 26px;
+      margin: 0;
+    }
+
+    & .post-date {
+      color: var(--text-gray);
+      font-size: 18px;
+    }
+  }
+
+  & .discription {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 36px;
+
+    & p {
+      font-size: 16px;
+      color: var(--text-gray);
+      margin: 0;
+    }
+  }
+
+  & .action-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    & .price {
+      background: var(--price-badge);
+      padding: 5px 10px 4px;
+      font-size: 16px;
+    }
+  }
+}
+
+.skill-title {
+  font-size: 20px;
+}
+
+.detail {
+  font-size: 18px;
+  color: var(--text-gray);
+}
+
+.sub-title-small {
+  font-size: 28px;
+}
+
+.price-badge {
+  background: var(--price-badge);
+  padding: 5px 10px 4px;
+  font-size: 16px;
+}
+
+.custom-action-section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+  & .custom-inner-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 120px 0;
+    width: 100%;
+    max-width: 600px;
+
+    & .action-detail {
+      text-align: center;
+    }
+  }
+}
+
+.career-content-section {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+
+  & .career-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    & .title {
+      margin: 0;
+    }
+
+    & .discription {
+      font-size: 18px;
+      color: var(--text-gray);
+      padding-right: 32px;
+    }
+  }
+}
+
+& .career-content-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  & .title {
+    margin: 0;
+  }
+
+  & .career-card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    & .sub-title {
+      margin: 0;
+      font-size: 22px;
+      padding-left: 32px;
+      position: relative;
+
+      &::before {
+        content: '';
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 14px;
+        background-color: #000;
+        transform: translateY(-50%);
+      }
+    }
+
+    & .discription {
+      font-size: 18px;
+      color: var(--text-gray);
+      padding-right: 32px;
+    }
+  }
+}
+
+.benefit-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  & .benefit-item {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+    & .benefit-text {
+      font-size: 16px;
+      color: var(--text-gray);
+    }
+  }
+}
+
+.career-apply-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 0 10px -2px #d2d2d2;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  position: relative;
+  max-width: 580px;
+  margin-left: auto;
+
+  & .apply-inner-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+    & .btn-primary-custom{
+      max-width: 100%;
+    }
+
+    & .text{
+      text-align: center;
+
+      & .primary-text{
+        color: var(--primary-purple);
+      }
+    }
+  }
+}
 
 .service-details-section {
   position: relative;
@@ -2488,6 +2698,11 @@ body {
         font-size: 28px;
       }
     }
+  }
+
+  .career-apply-card{
+    margin-left: unset;
+    margin: 24px auto 0;
   }
 }
 
